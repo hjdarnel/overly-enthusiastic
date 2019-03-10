@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Blog',
+    title: 'Overly Enthusiastic',
     author: 'Henry Darnell',
-    description: 'Personal blog by Henry Darnell.',
+    description: 'A technical blog by Henry Darnell.',
     siteUrl: 'https://blog.darnell.io',
     social: {
       twitter: '@hjdarnel',
