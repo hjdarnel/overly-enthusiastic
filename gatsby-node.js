@@ -14,7 +14,15 @@ exports.createPages = ({ graphql, actions }) => {
       component: path.resolve('./src/templates/blog-index.js'),
       context: {
         langKey: 'en',
-      }
+      },
+    });
+
+    createPage({
+      path: '/about',
+      component: path.resolve('./src/pages/about.js'),
+      context: {
+        langKey: 'en',
+      },
     });
 
     resolve(

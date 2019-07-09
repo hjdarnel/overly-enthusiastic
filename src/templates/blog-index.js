@@ -25,9 +25,7 @@ class BlogIndexTemplate extends React.Component {
         </aside>
         <main>
           {langKey !== 'en' && langKey !== 'ru' && (
-            <Panel>
-              These articles have been translated by the community.
-            </Panel>
+            <Panel>These articles have been translated by the community.</Panel>
           )}
 
           {posts.map(({ node }) => {
