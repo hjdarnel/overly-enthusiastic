@@ -1,10 +1,8 @@
 ---
 title: 'Comparing my CI options'
 date: '2019-04-10'
-spoiler: Surely it shouldn't be this hard... right? A shallow dive into our options in 2019.
+spoiler: Surely it shouldn't be this hard... right? A quick dive into our options in 2019.
 ---
-
-## the problem
 
 As a web dev, I really only have simple CI needs. I need to lint and run tests on all my branches, including pull requests for public repositories, and deploy only my default branch, often using SSH or other private key deploys. Certainly I need to make sure we don't deploy PRs or non-default branches! For a public project I think these are some pretty common considerations.
 

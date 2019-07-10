@@ -15,7 +15,8 @@ class Footer extends React.Component {
           <a href="/rss.xml" target="_blank" rel="noopener noreferrer">
             rss
           </a>
-        </div>
+        </div>{' '}
+        <a href="/about">about me</a> &bull;{' '}
         <a
           href="https://mobile.twitter.com/hjdarnel"
           target="_blank"
