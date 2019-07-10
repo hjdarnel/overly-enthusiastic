@@ -8,4 +8,6 @@ Hello world!
 
 I created this blog as a jumping off point for my brainstorming. I never have been very good at writing down notes as I research, so I intend to use this blog to share what I come across and what conclusions I come up with.
 
-I'm a full stack software engineer currently based out of Northwest Arkansas. If you want to talk more, <a href="/about">drop me a line!</a>
+The theme and layout is a fork of Dan Abramov's [React blog](https://overreacted.io).
+
+I'm a full stack software engineer currently based out of Northwest Arkansas. If you want to talk more, [drop me a line!](/about)
