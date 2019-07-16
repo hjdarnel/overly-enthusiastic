@@ -17,7 +17,7 @@ class About extends React.Component {
         <SEO title="About Henry" />
         <main>
           <h1>About Me</h1>
-          <div style={{ display: 'flex' }}>
+          <div className={'about'} style={{ display: 'flex' }}>
             <p>
               Hi, I'm Henry! Thanks for checking out my blog! <br />
               <br />
