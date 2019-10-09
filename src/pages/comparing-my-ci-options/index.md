@@ -41,7 +41,7 @@ script:
 after_success: true
 ```
 
-So approach is a bit wordy, with a lot of inline environment variable checks. On pushes to Travis-enabled repos, this file is always ran (and on PRs if enabled). There's no way to run only parts of the file depending on the type of branch you're on, so we have to manually check it. One scary downfall: we have to ensure we're not actually building a PR and deploying it when a PR is made against master! We do use a lot of environment variables here, including SSH addressing and keys stored in Travis.
+So this approach is a bit wordy, with a lot of inline environment variable checks. On pushes to Travis-enabled repos, this file is always ran (and on PRs if enabled). There's no way to run only parts of the file depending on the type of branch you're on, so we have to manually check it. One scary downfall: we have to ensure we're not actually building a PR and deploying it when a PR is made against master! We do use a lot of environment variables here, including SSH addressing and keys stored in Travis.
 
 In short, Travis makes us hardcode a lot of logic, and it's a bit scary when you open up your code to the world and possibly allow strangers to redeploy your service just by opening a PR. For simple branch linting and testing, Travis is fine. I wasn't pleased with the deploy options however.
 
