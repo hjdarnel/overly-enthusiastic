@@ -33,6 +33,7 @@ I've done some digging through code my first two weeks, so here's everything I f
   - Do I _have_ to use Visual Studio on Windows? Are there alternative tools? Anything on Mac? (I'm gonna miss my iMessage on Mac 😄)
   - What's a `.csproj` file? `.sln` file? How does everything "get connected" with one another? (My new codebase has a lot of `.csproj` files that seem to be connected.)
   - Are `.dll`s a C# thing or a .NET thing?
+  - What is the MVC pattern, and how does it apply when we use Vue as a frontend framework?
   - I've heard `.dll`s are versioned pretty well. How can we leverage that fact? (Builds, betas, releases, etc)
   - What prevents us from breaking up our monorepo into separate apps for backend and frontend (and then easily containerize)?
 - Vue
@@ -49,6 +50,7 @@ I've done some digging through code my first two weeks, so here's everything I f
   - How are events handled? Clicks/keyboard events? Cross-scope events?
   - What are the big players in 3rd party libraries? Routers, event managers, data stores, etc?
   - How is Vue adoption? If we rewrite our codebase, should we move to something else (Angular, React, Svelte)?
+  - Is Vue platform agnostic, or are we tied into the monorepo somehow?
 
 ## Deployment tech:
 - Azure App Service
