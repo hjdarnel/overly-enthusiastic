@@ -95,6 +95,6 @@ Phew! That's a lot to learn. 😂 I'm looking forward to learning more about the
 
 I want to follow this post up with a "here's what I've learned" post in six months or a year from now.
 
-When I was interviewing, I talked a lot about how cheesy it is, but as engineers we really do like to learn. We like to take a new problem, apply existing knowledge, and if that's not enough learn how to fix the problem properly. I really do look forward to getting to know a new codebase, new languages, new frameworks, and a new cloud computing service, as daunting as it may seem right now.
+When I was interviewing, I talked a lot about how, in spite of how cheesy it is, we engineers we really love learning. We like to take a new problem, apply existing knowledge, and if that's not enough learn how to fix the problem properly. I really do look forward to getting to know a new codebase, new languages, new frameworks, and a new cloud computing service, as daunting as it may seem right now.
 
 Cheers to learning new things!
