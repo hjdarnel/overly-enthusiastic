@@ -11,6 +11,15 @@ module.exports = {
   pathPrefix: '/',
   plugins: [
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-151313203-1",
+        head: true,
+        // sorry! most of my readers are probably devs and will have DNT turned on. 😞
+        respectDNT: false
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/pages`,
