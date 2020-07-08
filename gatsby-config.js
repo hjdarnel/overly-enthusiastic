@@ -35,6 +35,9 @@ module.exports = {
             options: {
               theme: 'OneDark-Pro',
               extensions: ['material-theme'],
+              inlineCode: {
+                marker: '>',
+              },
             },
           },
           {

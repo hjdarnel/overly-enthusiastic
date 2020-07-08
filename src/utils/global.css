@@ -68,7 +68,7 @@ body:lang(ko) article {
 /**
  * Based on copypasta from Remy Bach and Sarah Drasner
  */
-code[class*='language-'],
+code,
 pre[class*='language-'] {
   color: white;
   background: none;
