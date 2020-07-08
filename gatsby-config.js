@@ -13,10 +13,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-151313203-1",
+        trackingId: 'UA-151313203-1',
         head: true,
         // sorry! most of my readers are probably devs and will have DNT turned on. 😞
-        respectDNT: false
+        respectDNT: false,
       },
     },
     {
@@ -31,6 +31,13 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-remark-vscode`,
+            options: {
+              theme: 'OneDark-Pro',
+              extensions: ['material-theme'],
+            },
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
@@ -43,12 +50,6 @@ module.exports = {
             },
           },
           'gatsby-remark-autolink-headers',
-          {
-            resolve: 'gatsby-remark-prismjs',
-            options: {
-              inlineCodeMarker: '÷',
-            },
-          },
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
           {
@@ -80,11 +81,12 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.edges.map(edge => {
+              return allMarkdownRemark.edges.map((edge) => {
                 const siteUrl = site.siteMetadata.siteUrl;
                 const postText = `
-                <div style="margin-top=55px; font-style: italic;">(This is an article posted to my blog at blog.darnell.io. You can read it online by <a href="${siteUrl +
-                  edge.node.fields.slug}">clicking here</a>.)</div>
+                <div style="margin-top=55px; font-style: italic;">(This is an article posted to my blog at blog.darnell.io. You can read it online by <a href="${
+                  siteUrl + edge.node.fields.slug
+                }">clicking here</a>.)</div>
               `;
 
                 let html = edge.node.html;
