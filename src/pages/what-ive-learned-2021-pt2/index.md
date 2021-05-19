@@ -1,7 +1,7 @@
 ---
 title: What I've Learned Over The Past Year (And A Pandemic!) - Part 2 - Infrastructure
 date: 2021-05-18
-spoiler: Answering even more questions that come with a new role! This time, more questions about
+spoiler: Answering even more questions that come with a new role! This time, more questions about the infrastructure and "meta" programming side of things.
 ---
 In my last blog post, I went over “What I’ve Learned Over The Last Year (And A Pandemic!)”. I covered the tech/service side of things, covering C#, .NET Core, package management, and so on.
 
