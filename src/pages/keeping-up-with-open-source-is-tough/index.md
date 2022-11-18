@@ -6,13 +6,13 @@ spoiler: Why is it so difficult to come back to a project after a month or two?
 
 I know I can't be the only one that has encountered this -- you work on a project for a week or two. You install dependencies to do practically everything (as any "good dev" does these days 😉). You're got it all working perfectly: hot reloading, Prettier + ESLint for code formatting and linting, security middleware, and so on. If you look at this blog, we have [39 dependencies](https://github.com/hjdarnel/overly-enthusiastic/blob/master/package.json) just for a Gatsby site with plugins for i18n, analytics, remark for Markdown parsing, and some typography -- even that seems like a short list!
 
-Anyway, you deploy your code once, or you write your one blog post and get it uploaded, and then you let it sit for a while -- or 9 months. You come back to tweak a feature or add a blog post, so you `js•npm install` and `js•npm start`.
+Anyway, you deploy your code once, or you write your one blog post and get it uploaded, and then you let it sit for a while -- or 9 months. You come back to tweak a feature or add a blog post, so you `js*npm install` and `js*npm start`.
 
 But what do you see?
 
 ![A terminal window with text "audited 3081 packages in 11 seconds, found 813 vulnerabilities"](./vulnerabilities.png)
 
-Great. So you `js•npm audit fix` and hope it works automatically.
+Great. So you `js*npm audit fix` and hope it works automatically.
 
 ![A terminal window with text "node-gyp rebuild" followed by lines of lower level code](./node-gyp.png)
 
