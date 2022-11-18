@@ -6,7 +6,7 @@ spoiler: A how-to guide on flashing a TADA68 mechanical keyboard with fully-prog
 
 # Backstory
 
-I've been going through [my stack of mechanical keyboards](), taking stock of which keyboards work, which cables were still around, and which have been flashed with QMK firmware. For the unaware, [QMK Firmware](https://docs.qmk.fm/) is an open-source firmware and community focused on creating highly configurable layouts for keyboards, mice, and other MIDI devices.
+I've been going through [my stack of mechanical keyboards](https://reddit.com/r/mechanicalkeyboards), taking stock of which keyboards work, which cables were still around, and which have been flashed with QMK firmware. For the unaware, [QMK Firmware](https://docs.qmk.fm/) is an open-source firmware and community focused on creating highly configurable layouts for keyboards, mice, and other MIDI devices.
 
 ![Picture of the TADA68](./tada68.jpeg)
 
